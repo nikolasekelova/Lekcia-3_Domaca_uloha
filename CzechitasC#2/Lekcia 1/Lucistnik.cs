@@ -1,12 +1,12 @@
 ﻿namespace Lekcia_1
 {
-    internal class Rytier
+    internal class Lucistnik
     {
         public string Jmeno { get; set; }
         public int PocetZivotu { get; set; }
         public DateTime datumNarozeni;
 
-        public Rytier(string jmeno, int pocetZivotu)
+        public Lucistnik(string jmeno, int pocetZivotu)
         {
             Jmeno = jmeno;
             PocetZivotu = pocetZivotu;
